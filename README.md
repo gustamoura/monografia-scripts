@@ -7,7 +7,9 @@ Documentação e organização dos scripts e parte das bases usadas na minha mon
  ## 1 - "target_variable/create_explanatory_variables.R"
   - Script que trata e cria dataset com apenas as variáveis explicativas;
   - Dentro deste script é rodado um script auxiliar que cria a variável de iluminação pública (radiance_by_census_tract.R) mas esse script depende de arquivos .tif vindos daqui
-https://eogdata.mines.edu/nighttime_light/annual/v21/2012/, os quais são arquivos muito pesados. Confira antes se tem armazenamento local para baixá-los localmente;
+https://eogdata.mines.edu/nighttime_light/annual/v21/2012/, os quais são muito pesados. Confira se tem armazenamento local para baixá-los;
+  - obs: o .tif que deve ser baixado é o 	
+VNL_v21_npp_201204-201212_global_vcmcfg_c202205302300.median_masked.dat.tif.gz
 
 ## 2.1 - "target_variable/1 - handling_raw_crime_data.R"
   - Trata os dados brutos de crimes vindos originalmente de um arquivo .parquet, criado por uma outra pessoa que requisitou-os da Secretaria de Segurança Pública de São Paulo. 
