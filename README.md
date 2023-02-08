@@ -1,7 +1,3 @@
-# monografia-scripts
-Documentação e organização dos scripts e parte das bases usadas na minha monografia que analisei o impacto da iluminação pública sobre a criminalidade
-
-
 # Ordem dos códigos para rodar e obter o dataset usado na monografia:
 
  ## 1 - "target_variable/create_explanatory_variables.R"
@@ -21,6 +17,9 @@ VNL_v21_npp_201204-201212_global_vcmcfg_c202205302300.median_masked.dat.tif.gz
   
 ## 3 - "create_dataset_monografia.R"
   - Faz um join entre o dataset com as explicativas e a dependente para criar a cross-section final usado nas regressões da monografia.
+
+
+
 
 ### Evolução dos crimes na cidade de São Paulo onde cada ponto é uma ocorrência de roubo ou furto:
 ![Depois-de-uma-tarde-inteira-consegui-fazer-esse-gif-das-ocorrências-mensais-de-roubos-e-furtos-na-ci](https://user-images.githubusercontent.com/78006107/217655137-24e9fb08-8ba1-4861-abcc-242c949caa01.gif)
