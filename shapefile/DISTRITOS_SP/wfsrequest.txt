@@ -1,0 +1,1 @@
+https://datageo.ambiente.sp.gov.br/geoserver/datageo/DISTRITO_MUNICIPAL_SP_SMDU/wfs?version=1.0.0&request=GetFeature&outputFormat=SHAPE-ZIP&typeName=DISTRITO_MUNICIPAL_SP_SMDU
